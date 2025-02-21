@@ -1,0 +1,43 @@
+.part1{
+    border: 5px solid orangered;
+    height: 460px;
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.home{
+    border: 5px solid orange;
+    height: 450px;
+    width:450px
+}
+
+.cntrlPanel {
+    border: 5px solid yellow;
+    height: 100%;
+    width:450px;
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.tutors{
+    border: 5px solid rgb(50, 73, 205);
+    height: 250px;
+    width: 200px
+}
+
+.stdnts{
+    border: 5px solid green;
+    height: 250px;
+    width:200px
+}
+
+.tutors, .stdnts {
+    border: 5px solid green;
+    width: 100%; 
+    height: 50%; 
+    box-sizing: border-box; 
+}
